@@ -1,0 +1,51 @@
+.quoteContainer {
+  background-color: #293132;
+  font-family: 'Pacifico', cursive;
+  width: 750px;
+    /*display:flex;
+  justify-content: center;  
+align-items:center;*/
+}
+.quoteContainer .quoteContent {
+  text-align: center;
+}
+.quoteContainer .quoteText {
+  color: #80bd9d;
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 20px;
+}
+.quoteContainer .quoteAuthor {
+  color: #fd410d;
+  padding: 10px 50px;
+}
+
+.btnContainer {
+  background-color: #fd410d;
+}
+.btnContainer button {
+  background-color: #fd410d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px;
+  font-family: 'Passion One', cursive;
+}
+
+.mainContainer {
+  background-color: #80bd9d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.mainContainer h1 {
+  font-family: 'Passion One', cursive;
+  font-size: 50px;
+}
+.mainContainer h1 .quote {
+  color: #fd410d;
+  font-family: 'Passion One', cursive;
+  font-size: 50px;
+}

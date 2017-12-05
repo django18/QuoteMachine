@@ -1,0 +1,67 @@
+$page-bkg-color:#80bd9d;
+$quote-bkg-color:#293132;
+$quote-color:#8fafc4;
+$btn-bkg:#8fafc4;
+
+  .quoteContainer{
+    background-color: $quote-bkg-color;
+    font-family: 'Pacifico', cursive;
+  width: 750px;
+      /*display:flex;
+    justify-content: center;  
+  align-items:center;*/
+
+    .quoteContent{
+      text-align:center;
+    }
+    .quoteText{
+            
+      color:$page-bkg-color;
+      text-align:center;
+      font-size:50px;
+      padding:50px 20px;
+    }  
+    .quoteAuthor{
+      color:#fd410d;
+      padding:10px 50px;
+    }
+    
+    
+    
+    }
+
+.btnContainer{
+  background-color:#fd410d;
+  button{
+      background-color:#fd410d;
+      color:white;
+      border:none;
+      border-radius:5px;
+      padding:5px 20px;
+      margin:10px;
+      font-family: 'Passion One', cursive;
+    }
+}
+  
+
+.mainContainer{
+   background-color: $page-bkg-color;
+  display: flex;
+  justify-content: space-around;  
+  align-items:center;
+  height:100vh;
+  
+  h1{
+     font-family: 'Passion One', cursive;
+    font-size:50px;
+    
+    .quote{
+      color:#fd410d;
+      font-family: 'Passion One', cursive;
+      font-size:50px;
+    }
+  }
+}
+ 
+  
+  
